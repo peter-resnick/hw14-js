@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HW 14 - Javascript</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <!--  <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <input type="text" class="form-control" id="dateTime" placeholder="Date/Time">
+          <a id="searchTime" class="btn btn-default">Search by Date/Time</a>
+          <input type="text" class="form-control" id="city" placeholder="City">
+          <a id="searchCity" class="btn btn-default">Search by City</a>
+          <input type="text" class="form-control" id="state" placeholder="State">
+          <a id="searchState" class="btn btn-default">Search by State</a>
+          <input type="text" class="form-control" id="country" placeholder="Country">
+          <a id="searchCountry" class="btn btn-default">Search by Country</a>
+          <input type="text" class="form-control" id="shape" placeholder="Shape">
+          <a id="searchShape" class="btn btn-default">Search by Shape</a>
+          <a id="reset" class = "btn btn-default">Reset table</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Date/Time</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Country</th>
+              <th>Shape</th>
+              <th>Duration</th>
+              <th>Comment</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="Data/data.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
