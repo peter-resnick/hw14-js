@@ -102,7 +102,7 @@ function handleCountryButtonClick() {
       return observationCountry === filteredTerm;
     });
     renderTable();
-    countryInput = ""
+    countryInput.value = ""
 }
 
 function handleShapeButtonClick() {
@@ -117,7 +117,7 @@ function handleShapeButtonClick() {
       return observationShape === filteredTerm;
     });
     renderTable();
-    shapeInput = ""
+    shapeInput.value = ""
 }
 
 function handleResetButtonClick() {
