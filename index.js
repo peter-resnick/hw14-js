@@ -95,7 +95,6 @@ function handleCountryButtonClick() {
   
     // Set filteredAddresses to an array of all addresses whose "state" matches the filter
     filteredObservations = dataSet.filter(val => {
-        console.log(address.country)
       var observationCountry = val.country.toLowerCase();
   
       // If true, add the address to the filteredAddresses, otherwise don't add it to filteredAddresses
